@@ -1,0 +1,85 @@
+:root {
+    /* --ablue: rgb(161, 41, 185); */
+    --ablue: rgb(41, 149, 185);
+}
+.gall{
+    display: block;
+}
+div .gallery{
+    margin: 15%;
+    border: 1px solid lightgray;
+    width: 70%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+
+.ser{
+    display: block;
+    width: 90%;
+    margin: 5%;
+}
+div.our_services{
+    margin: 10%;
+    border: 1px solid lightgray;
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;    
+}
+div.our_services i{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+}
+
+div.our_services .services_head{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding: 23px 10px 00px 10px
+}
+div.our_services .services_desc{
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+    padding: 23px 30px 20px 30px;
+}
+#A{
+    background-color: white;
+    color: tomato;
+    border-left: 20px solid tomato;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 tomato;
+	transition: all ease-out 0.4s;
+}
+#B{
+    background-color: white;
+    color: teal;
+    border-left: 20px solid teal;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 teal;
+	transition: all ease-out 0.4s;
+}
+#A:hover{
+    box-shadow: inset 600px 0 0 0 tomato;
+    color: white;
+}
+#B:hover{
+    color: white;
+    box-shadow: inset 600px 0 0 0 teal;
+}
+.client{
+    width: 90%;
+    margin: 10%;
+}
+.client img{
+    height: 500px;
+    width: 80%;
+    margin: 2%;
+}

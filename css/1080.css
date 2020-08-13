@@ -1,0 +1,318 @@
+
+html {
+    scroll-behavior: smooth;
+}  
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Variables end */
+/* CSS For Header */
+#heading{
+    margin-right: 8.5%;
+    padding : 0.0%;
+    font-size: 29px;
+    font-weight: bold;
+    font-family: cursive;
+    color: var(--ablue);
+}
+.header_on_scroll{
+    padding: 10px 15px 10px 0px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 5px 10px gray;
+    background-color: white ;
+    transition: 400ms;
+}
+#menu_btn{
+    display: none;
+}
+.top li{
+    font-weight: bold;
+    float: left;
+    color: rgb(70, 69, 69);
+    /* padding: 5px 15px 5px 15px; */
+    padding: 1% 7px;
+}
+.had{
+    margin: -20px -20px -20px -20px;
+    padding: 30px 0px 50px 0px;
+    position: fixed;
+    width: 100%;
+    transition: 400ms;
+}
+#backg{
+    display: none;
+}
+header{
+    margin: -20px -20px -20px -20px;
+    padding: 25px 0px 30px 0px;
+    position: fixed;
+    width: 100%;
+}
+#logo{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top{
+    font-size: 20px;
+    list-style-type: none;
+}
+.top li:hover{
+    color: var(--ablue);
+    cursor: pointer;
+}
+#provide{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+}
+#desc{
+    font-size: 35px;
+    font-weight: 100;
+}
+/* CSS For  header completed*/
+/* CSS For Buttons */
+.buttons{
+    align-items: center;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+.bottons ul{
+    color: rgb(161, 0, 0);
+    cursor: pointer;
+}
+.buttons li{
+    list-style-type: none;
+    float: left;
+    border-radius: 30px;
+    border: 2px solid var(--ablue);
+    margin: 10px 20px 10px 20px;
+}
+.services{
+    color: var(--ablue);
+    padding: 10px 40px 10px 40px;
+}
+.services:hover{
+    color: white;
+    cursor: pointer;
+    background-color: var(--ablue);
+    transition: 400ms;
+}
+.contact{
+    color: white;
+    cursor: pointer;
+    padding: 10px 35px 10px 35px;
+    background-color: var(--ablue);
+    transition: 400ms;
+}
+.contact:hover{
+    color: var(--ablue);
+    cursor: pointer;
+    background-color: white;
+    transition: 400ms;
+}
+/* CSS For Buttons Completed*/
+/* About us started */
+.about{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    float: left;
+}
+.about .title_1{
+    font-size: 40px;
+    font-weight: 700;
+    float: left;
+}
+.about hr{
+    width: 100px;
+    background-color: black;
+    height: 2px;
+    float: left;
+    margin: 60px 20px 10px 20px
+}
+/* gallery */
+div.gallery {
+    margin: 15px;
+    border: 1px solid lightgray;
+    float: left;
+    width: 350px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: gray;
+    text-align: justify;
+    padding: 10px 40px 10px 40px;
+}
+  div.desc_head{
+      border-top: 1px solid lightgray;
+      font-size: 30px;
+      text-align: center;
+      padding: 20px 40px 0px 40px;
+  }
+  .gall{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-right: auto;
+      margin-left: auto;
+  }
+  #descr{
+    font-size: 24px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 70px;
+}
+
+/* transportation */
+.ser{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+div.our_services{
+    height: 250px;
+    width: 400px;
+    border: 1px solid lightgray;
+    margin: 8px;
+    float: left;
+    overflow: hidden;
+    border-radius: 20px;    
+}
+div.our_services i{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 50px;
+}
+
+div.our_services .services_head{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding: 23px 10px 00px 10px
+}
+div.our_services .services_desc{
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+    padding: 23px 30px 20px 30px;
+}
+#A{
+    background-color: white;
+    color: tomato;
+    border-left: 20px solid tomato;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 tomato;
+	transition: all ease-out 0.4s;
+}
+#B{
+    background-color: white;
+    color: teal;
+    border-left: 20px solid teal;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 teal;
+	transition: all ease-out 0.4s;
+}
+#A:hover{
+    box-shadow: inset 400px 0 0 0 tomato;
+    color: white;
+}
+#B:hover{
+    color: white;
+    box-shadow: inset 400px 0 0 0 teal;
+}
+.client{
+    width: 90%;
+    margin: 10%;
+}
+.client img{
+    height: 300px;
+    width: 40%;
+    margin: 2%;
+}
+/* floating buttons start */
+
+
+
+/* Contact us start */
+
+
+/* About us end */
+
+
+
+/* Footer start */
+footer{
+    /* box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4); */
+    box-shadow: 0px -9px 10px 1px rgba(128, 128, 128, 0.473);
+    padding: 50px 10px 200px 10px;
+    margin: -8px;
+    height: 100%;
+    /* border-top: 3px solid black; */
+    /* width: 100% */
+
+}
+
+footer div img{
+    height: 100px;
+}
+
+footer div {
+    float: left;
+    margin-left: 0%;
+
+}
+footer div .main{
+    font-size: 18px;
+    color: black;
+    font-weight: bolder;
+}
+footer div .main:hover{
+    color: black;
+    cursor: text;
+}
+footer div li{
+    color: rgb(117, 117, 117);
+    font-weight: 600;
+}
+footer div li:hover{
+    color: var(--ablue);
+    cursor: pointer;
+}
+footer i{
+    font-size: 30px;
+    margin: 10px;
+}
+footer div ul{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+/* Footer complete */
