@@ -1,150 +1,190 @@
 html {
     scroll-behavior: smooth;
-}  
-body{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+
+
 /* Variables */
+
 :root {
     --ablue: rgb(41, 149, 185);
     /* --ablue: rgb(41, 149, 185); */
 }
 
+
 /* Variables end */
+
+
 /* CSS For Header */
-#heading{
+
+#heading {
     margin-right: 25%;
-    padding : 0.5%;
+    padding: 0.5%;
     font-size: 25px;
     font-weight: bold;
     font-family: cursive;
     color: var(--ablue);
 }
-.header_on_scroll{
+
+.header_on_scroll {
     padding: 10px 15px 10px 0px;
     position: fixed;
     width: 100%;
     box-shadow: 5px 5px 10px gray;
-    background-color: white ;
+    background-color: white;
     transition: 400ms;
 }
-.top li{
+
+.top li {
     font-weight: bold;
     float: left;
     color: rgb(70, 69, 69);
-    /* padding: 5px 15px 5px 15px; */
+    padding: 5px 15px 5px 15px;
     padding: 1% 15px;
 }
-#menu{
+
+#menu {
     display: none;
 }
-#menu_btn{
+
+#menu_btn {
     display: none;
 }
-#menu li{
-    display : none;
+
+#menu li {
+    display: none;
 }
-.had{
+
+.had {
     margin: -20px -20px -20px -20px;
     padding: 30px 0px 50px 0px;
     position: fixed;
     width: 100%;
     transition: 400ms;
 }
-header{
+
+header {
     margin: -20px -20px -20px -20px;
     padding: 25px 0px 30px 0px;
     position: fixed;
     width: 100%;
 }
-#logo{
+
+#logo {
     height: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.top{
+
+.top {
     font-size: 20px;
     list-style-type: none;
 }
-.top li:hover{
+
+.top li:hover {
     color: var(--ablue);
     cursor: pointer;
 }
-#provide{
+
+#provide {
     padding-top: 30px;
     text-align: center;
     font-size: 70px;
     font-weight: 900;
 }
-#desc{
+
+#desc {
     font-size: 35px;
     font-weight: 100;
 }
+
+
 /* CSS For  header completed*/
+
+
 /* CSS For Buttons */
 
-.buttons{
+.buttons {
     align-items: center;
     font-size: 22px;
     display: flex;
     justify-content: center;
 }
-.bottons ul{
+
+.bottons ul {
     color: rgb(161, 0, 0);
     cursor: pointer;
     float: left;
 }
-.buttons li{
+
+.buttons li {
     list-style-type: none;
     float: left;
     border-radius: 30px;
     border: 2px solid var(--ablue);
     margin: 10px 20px 10px 20px;
 }
-.services{
+
+.services {
     color: var(--ablue);
     padding: 10px 40px;
 }
-.services:hover{
+
+.services:hover {
     color: white;
     cursor: pointer;
     background-color: var(--ablue);
     transition: 400ms;
 }
-.contact{
+
+.contact {
     color: white;
     padding: 10px 35px;
     background-color: var(--ablue);
     transition: 400ms;
 }
-.contact:hover{
+
+.contact:hover {
     color: var(--ablue);
     cursor: pointer;
     background-color: white;
     transition: 400ms;
 }
+
+
 /* CSS For Buttons Completed*/
+
+
 /* About us started */
-.about{
+
+.about {
     display: flex;
     justify-content: center;
     width: 100%;
     float: left;
 }
-.about .title_1{
+
+.about .title_1 {
     font-size: 40px;
     font-weight: 700;
     float: left;
 }
-.about hr{
+
+.about hr {
     width: 100px;
     background-color: black;
     height: 2px;
     float: left;
-    margin: 60px 20px 10px 20px
+    margin: 60px 20px 10px 20px;
 }
+
+
 /* gallery */
+
 div.gallery {
     margin: 15px;
     border: 1px solid lightgray;
@@ -159,15 +199,15 @@ div.gallery {
 div.gallery:hover {
     border: 1px solid #777;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-  }
-  
-  div.gallery img {
+}
+
+div.gallery img {
     width: 100%;
     height: 270px;
     border-radius: 20px;
-  }
-  
-  div.desc {
+}
+
+div.desc {
     padding: 15px;
     font-size: 18px;
     text-align: center;
@@ -175,20 +215,23 @@ div.gallery:hover {
     text-align: justify;
     padding: 10px 40px 10px 40px;
 }
-  div.desc_head{
-      border-top: 1px solid lightgray;
-      font-size: 30px;
-      text-align: center;
-      padding: 20px 40px 0px 40px;
-  }
-  .gall{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin-right: auto;
-      margin-left: auto;
-  }
-  #descr{
+
+div.desc_head {
+    border-top: 1px solid lightgray;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 40px 0px 40px;
+}
+
+.gall {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#descr {
     font-size: 24px;
     text-align: center;
     margin-left: 20%;
@@ -196,88 +239,103 @@ div.gallery:hover {
     margin-bottom: 70px;
 }
 
+
 /* transportation */
-.ser{
+
+.ser {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-div.our_services{
+
+div.our_services {
     height: 250px;
     width: 500px;
     border: 1px solid lightgray;
     margin: 8px;
     float: left;
     overflow: hidden;
-    border-radius: 20px;    
+    border-radius: 20px;
 }
-div.our_services i{
+
+div.our_services i {
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     font-size: 50px;
 }
 
-div.our_services .services_head{
+div.our_services .services_head {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
-    padding: 23px 10px 00px 10px
+    padding: 23px 10px 00px 10px;
 }
-div.our_services .services_desc{
+
+div.our_services .services_desc {
     text-align: center;
     line-height: 30px;
     font-size: 17px;
     padding: 23px 30px 20px 30px;
 }
-#A{
+
+#A {
     background-color: white;
     color: tomato;
     border-left: 20px solid tomato;
     text-align: center;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 tomato;
-	transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
 }
-#B{
+
+#B {
     background-color: white;
     color: teal;
     border-left: 20px solid teal;
     text-align: center;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 teal;
-	transition: all ease-out 0.4s;
+    transition: all ease-out 0.4s;
 }
-#A:hover{
+
+#A:hover {
     box-shadow: inset 500px 0 0 0 tomato;
     color: white;
 }
-#B:hover{
+
+#B:hover {
     color: white;
     box-shadow: inset 500px 0 0 0 teal;
 }
-.client{
+
+.client {
     width: 80%;
     margin: auto;
 }
-.client img{
+
+.client img {
     height: 200px;
     width: 20%;
     margin: 2%;
     border: 2px solid rgb(173, 173, 173);
     box-shadow: 0px 0px 10px rgb(37, 37, 37);
-
 }
-.client img:hover{
+
+.client img:hover {
     box-shadow: 0px 0px 25px rgb(27, 27, 27);
 }
+
+
 /* floating buttons start */
-.floating{
+
+.floating {
     position: fixed;
     right: 20px;
     bottom: 30px;
-} 
-.floating div{
+}
+
+.floating div {
     height: 40px;
     width: 40px;
     border-radius: 20px;
@@ -288,12 +346,14 @@ div.our_services .services_desc{
     color: white;
     text-align: center;
 }
-.floating div:hover{
+
+.floating div:hover {
     box-shadow: 0px 0px 15px black;
     cursor: pointer;
     transition: 200ms;
 }
-#enquiry{
+
+#enquiry {
     position: fixed;
     right: 30px;
     bottom: 190px;
@@ -304,16 +364,20 @@ div.our_services .services_desc{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(37, 37, 37);
 }
-#enquiry:hover{
+
+#enquiry:hover {
     cursor: help;
     box-shadow: 0px 0px 15px black;
     transition: 200ms;
 }
 
+
 /* floating buttons end */
 
+
 /* Enquiry form start */
-#enq_form{
+
+#enq_form {
     display: none;
     width: 40%;
     height: 580px;
@@ -324,11 +388,13 @@ div.our_services .services_desc{
     left: 30%;
     box-shadow: 0px 0px 10px rgb(37, 37, 37);
 }
-#enq_form p{
+
+#enq_form p {
     color: var(--ablue);
     font-size: 40px;
 }
-#enq_form input{
+
+#enq_form input {
     width: 80%;
     height: 50px;
     margin: 2%;
@@ -339,44 +405,51 @@ div.our_services .services_desc{
     border-bottom: 2px solid var(--ablue);
     outline: none;
 }
-#enq_form input:focus{
+
+#enq_form input:focus {
     font-size: 25px;
     transition: 300ms;
-
 }
-#enq_form #btn{
+
+#enq_form #btn {
     color: white;
     font-size: 20px;
-    border-radius: 20PX;
+    border-radius: 20px;
     background-color: var(--ablue);
     padding: 6px 8px;
     width: 30%;
 }
-#enq_form #btn:hover{
+
+#enq_form #btn:hover {
     cursor: pointer;
     box-shadow: 0px 0px 4px rgb(37, 37, 37);
     transition: 300ms;
 }
-#enq_form_close{
+
+#enq_form_close {
     display: none;
     font-size: 30px;
     position: fixed;
     top: 19%;
     left: 66%;
     z-index: 1;
-    color: var(--ablue)
+    color: var(--ablue);
 }
-#enq_form_close:hover{
+
+#enq_form_close:hover {
     cursor: pointer;
     color: red;
     text-shadow: 0px 0px 2px rgb(37, 37, 37);
     transition: 300ms;
-
 }
+
+
 /* Enquiry form end */
 
- /* opacity backgroung blur */
-#backg{
+
+/* opacity backgroung blur */
+
+#backg {
     display: none;
     position: fixed;
     top: 0px;
@@ -384,12 +457,12 @@ div.our_services .services_desc{
     height: 150%;
     width: 150%;
     background-color: rgba(0, 0, 0, 0.377);
-    
 }
 
 
 /* Contact us start */
-#cont{
+
+#cont {
     display: none;
     width: 40%;
     height: 350px;
@@ -400,24 +473,38 @@ div.our_services .services_desc{
     left: 30%;
     box-shadow: 0px 0px 10px rgb(37, 37, 37);
 }
-#cont i{
+
+#cont i {
     font-size: 23px;
     margin: 10px;
     color: var(--ablue);
 }
-#cont i:hover{
+
+#cont i:hover {
     cursor: pointer;
 }
-.cont_2{
-    margin: 40px 0px 50px 50px;
 
+.cont_2 {
+    margin: 40px 0px 50px 50px;
+    text-decoration: none;
 }
-.cont_det{
+
+.cont_2 i {
+    text-decoration: none;
+}
+
+.cont_det {
+    margin: 10px 0px 10px 20px;
+}
+
+.cont_det a {
     margin: 10px 0px 10px 20px;
     font-size: 20px;
     color: gray;
+    text-decoration: none;
 }
-#cont_close{
+
+#cont_close {
     display: none;
     position: fixed;
     top: 33%;
@@ -426,7 +513,8 @@ div.our_services .services_desc{
     color: var(--ablue);
     font-size: 30px;
 }
-#cont_close:hover{
+
+#cont_close:hover {
     color: red;
     text-shadow: 0px 0px 10px rgb(37, 37, 37);
     transition: 400ms;
@@ -436,8 +524,10 @@ div.our_services .services_desc{
 
 /* Contact us end */
 
+
 /* About us start */
-#about_us_1{
+
+#about_us_1 {
     display: none;
     width: 40%;
     height: 500px;
@@ -448,25 +538,27 @@ div.our_services .services_desc{
     left: 30%;
     box-shadow: 0px 0px 10px rgb(37, 37, 37);
 }
-#about_us_1 hr{
+
+#about_us_1 hr {
     background-color: var(--ablue);
     height: 1px;
     width: 83%;
 }
-#about_us_1 .main_1{
+
+#about_us_1 .main_1 {
     color: var(--ablue);
     font-size: 23px;
     font-weight: bold;
     margin: 40px 0px 30px 50px;
-    
 }
-#about_us_1 .det_1{
+
+#about_us_1 .det_1 {
     margin: 10px 0px 10px 50px;
     font-size: 20px;
     color: gray;
 }
 
-#about_close{
+#about_close {
     display: none;
     position: fixed;
     top: 28%;
@@ -475,7 +567,8 @@ div.our_services .services_desc{
     color: var(--ablue);
     font-size: 30px;
 }
-#about_close:hover{
+
+#about_close:hover {
     color: red;
     text-shadow: 0px 0px 10px rgb(37, 37, 37);
     transition: 400ms;
@@ -486,9 +579,9 @@ div.our_services .services_desc{
 /* About us end */
 
 
-
 /* Footer start */
-footer{
+
+footer {
     /* box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.4); */
     box-shadow: 0px -9px 10px 1px rgba(128, 128, 128, 0.473);
     padding: 50px 10px 200px 10px;
@@ -496,42 +589,47 @@ footer{
     height: 100%;
     /* border-top: 3px solid black; */
     /* width: 100% */
-
 }
 
-footer div img{
+footer div img {
     height: 100px;
 }
 
 footer div {
     float: left;
     margin-left: 4%;
-
 }
-footer div .main{
+
+footer div .main {
     font-size: 18px;
     color: black;
     font-weight: bolder;
 }
-footer div .main:hover{
+
+footer div .main:hover {
     color: black;
     cursor: text;
 }
-footer div li{
+
+footer div li {
     color: rgb(117, 117, 117);
     font-weight: 600;
 }
-footer div li:hover{
+
+footer div li:hover {
     color: var(--ablue);
     cursor: pointer;
 }
-footer i{
+
+footer i {
     font-size: 30px;
     margin: 10px;
 }
-footer div ul{
+
+footer div ul {
     list-style-type: none;
     line-height: 30px;
 }
+
 
 /* Footer complete */

@@ -10,7 +10,6 @@ else {
 document.getElementById("head").className = "";
 }
 }
-
 //for closing form
 function close_form(){
     document.getElementById("enq_form_close").setAttribute("style","display:none")
@@ -24,7 +23,6 @@ function show_form(){
     document.getElementById("enq_form").setAttribute("style","display:block")
     document.getElementById("backg").setAttribute("style","display:block")
     document.getElementById("enquiry").setAttribute("style","display:none")
-    
 }
 //for closing contact
 function close_cont(){
@@ -81,9 +79,6 @@ function close_(){
     document.getElementById("backg").setAttribute("style","display:none")
     close_menu()
 }
-
-
-
 function close_all(){
     close_cont();
     close_form();
